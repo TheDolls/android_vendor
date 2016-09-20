@@ -14,6 +14,6 @@
 
 LOCAL_STEM := deb/device-partial.mk
 
-$(call inherit-product-if-exists, vendor/asus/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/qcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/flo-deb/asus/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/flo-deb/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/flo-deb/qcom/$(LOCAL_STEM))

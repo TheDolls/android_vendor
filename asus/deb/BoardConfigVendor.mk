@@ -14,6 +14,6 @@
 
 LOCAL_STEM := deb/BoardConfigPartial.mk
 
--include vendor/asus/$(LOCAL_STEM)
--include vendor/broadcom/$(LOCAL_STEM)
--include vendor/qcom/$(LOCAL_STEM)
+-include vendor/flo-deb/asus/$(LOCAL_STEM)
+-include vendor/flo-deb/broadcom/$(LOCAL_STEM)
+-include vendor/flo-deb/qcom/$(LOCAL_STEM)

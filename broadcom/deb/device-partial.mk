@@ -14,6 +14,6 @@
 
 # Broadcom blob(s) necessary for Deb hardware
 PRODUCT_COPY_FILES := \
-    vendor/broadcom/deb/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
-    vendor/broadcom/deb/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
+    vendor/flo-deb/broadcom/deb/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
+    vendor/flo-deb/broadcom/deb/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
 
